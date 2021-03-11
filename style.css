@@ -80,16 +80,18 @@ body{
   box-sizing: border-box;
 }
 
-.list-item-menu-img{
+.item-img{
   cursor: pointer;
-  display: flex;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-right: 20px;
   padding-left: 20px;
-  justify-content: space-around;
+  justify-content: center;
   text-align: left;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgba(255, 255, 255, 0.322);
   color:rgb(73,80,87);
   text-decoration-color:rgb(197, 197, 197);
@@ -164,6 +166,10 @@ body{
   padding: 20px;
   border: 1px solid #888;
   width: 25%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.8s
 }
 
 /* The Close Button */
@@ -172,6 +178,17 @@ body{
   float: right;
   font-size: 28px;
   font-weight: bold;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
 }
 
 .close:hover,
