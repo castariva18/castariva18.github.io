@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins";
+    background-image: url('https://64.media.tumblr.com/6aef149c38190b4630dd49e987d34760/tumblr_obiapsPMYr1reqdtxo2_r1_640.gifv');
+    background-size: cover;
+    padding:0;
+  }
+  
+  .list-menu {
+    border-style: none;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(0,0,0,0.125);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.322);
+    font-weight: 300;
+    text-size-adjust: 100%;
+    line-height: 24px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    text-align: left; 
+    transition: 0.5s;
+    transition-property: color;
+  }
+  
+  .list-item-menu{
+    cursor: pointer;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    text-align: left;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.322);
+    color:rgb(73,80,87);
+    text-decoration-color:rgb(197, 197, 197);
+    text-decoration-line: none ;
+    text-decoration-thickness: auto;
+    border-style: none;
+    border-radius: 1px;
+    border-width: 0.5px;
+    border-color: rgb(0,0,0,0.125);
+    box-sizing: border-box;
+  }
+  
+  .list-menu a:hover{
+   background:  #7CD9EB;
+   color: white;
+  }
