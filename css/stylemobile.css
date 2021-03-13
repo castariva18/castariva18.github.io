@@ -10,6 +10,33 @@ body{
     background-size: cover;
     padding:0;
   }
+
+  .list-item-menu-head{
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-style: none;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(0,0,0,0.125);
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-color:  #2FC5E0;
+    line-height: 24px;
+    list-style-image: none ;
+    list-style-position: outside;
+    list-style-type: none;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 24px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 300px;
+    align-items: center;
+    padding-left: 20px;
+   
+   }
   
   .list-menu {
     border-style: none;
