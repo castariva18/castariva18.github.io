@@ -85,4 +85,5 @@ body{
   .list-menu a:hover{
    background:  #7CD9EB;
    color: white;
+   text-decoration: none;
   }

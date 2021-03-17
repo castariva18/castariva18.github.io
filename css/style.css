@@ -98,7 +98,7 @@ body{
   text-decoration-line: none ;
   text-decoration-thickness: auto;
   border-style: none;
-  border-radius: 1px;
+  border-radius: 50%;
   border-width: 0.5px;
   border-color: rgb(0,0,0,0.125);
   box-sizing: border-box;
@@ -164,6 +164,7 @@ body{
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
+  border-radius: 20px;
   border: 1px solid #888;
   width: 25%;
   -webkit-animation-name: animatetop;
@@ -193,7 +194,7 @@ body{
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #e03b2fde;
   text-decoration: none;
   cursor: pointer;
 }
