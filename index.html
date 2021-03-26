@@ -2,59 +2,60 @@
 <html>
 
 <head>
-	<title>Profile</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-	<link rel="icon" href="https://64.media.tumblr.com/avatar_d3b0425bb0de_128.pnj">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="icon" href="https://64.media.tumblr.com/avatar_d3b0425bb0de_128.pnj">
 </head>
 
-<body>
-	<audio loop autoplay>
+<body onload="myFunction()" style="margin:0;">
+    <audio loop autoplay>
 		<source src="asset/su.mp3" type="audio/mp3">
 	</audio>
-	<div class="list-menu">
-		<h3 class="list-item-menu-head">Miro's &nbsp; <span> Profile</span></h3>
-		<a href="#" class="list-item-menu" id="myBtn">Profile<span><img src="asset/profile.png"
+    <div id="loader"></div>
+    <div class="list-menu" style="display:none;" id="myDiv" class="animate-bottom">
+        <h3 class="list-item-menu-head">Miro's &nbsp; <span> Profile</span></h3>
+        <a href="#" class="list-item-menu" id="myBtn">Profile<span><img src="asset/profile.png"
 					class="img-menu"></span></a>
-		<div id="myModal" class="modal">
+        <div id="myModal" class="modal">
 
-			<!-- Modal content -->
-			<div class="modal-content list-menu-modal">
-				<span class="close">&times;</span>
-				<img class="item-img" src="asset/profile.jpg" class="profile-foto">
-				<span class="list-item-menu">Hello world, I'm Tengku Belmiro Ramadhani but you can call me Miro,
+            <!-- Modal content -->
+            <div class="modal-content list-menu-modal">
+                <span class="close">&times;</span>
+                <img class="item-img" src="asset/profile.jpg" class="profile-foto">
+                <span class="list-item-menu">Hello world, I'm Tengku Belmiro Ramadhani but you can call me Miro,
 					I'm 22, I live in Bandung city, I'm interested in mobile application development and still learn
 					every day </span>
 
-			</div>
+            </div>
 
-		</div>
-		<a href="asset/cv.pdf" target="_blank" class="list-item-menu" download="cv">CV<span><img src="asset/resume.png"
+        </div>
+        <a href="asset/cv.pdf" target="_blank" class="list-item-menu" download="cv">CV<span><img src="asset/resume.png"
 					class="img-menu"></span></a>
-		<a href="#" class="list-item-menu collapsible">Work<span><img src="asset/file.png" class="img-menu"></span></a>
-		<div class="content">
-			<a href="https://github.com/castariva18/" target="_blank" class="list-item-menu">Github<span><img
+        <a href="#" class="list-item-menu collapsible">Work<span><img src="asset/file.png" class="img-menu"></span></a>
+        <div class="content">
+            <a href="https://github.com/castariva18/" target="_blank" class="list-item-menu">Github<span><img
 						src="asset/github.png" class="img-menu"></span></a>
-			<a href="RecentWork.html" target="_blank" class="list-item-menu">Recent work<span><img src="asset/mobileapp.png"
+            <a href="RecentWork.html" target="_blank" class="list-item-menu">Recent work<span><img src="asset/mobileapp.png"
 						class="img-menu"></span></a>
-		</div>
-		<a href="#" class="list-item-menu collapsible">Social<span><img src="asset/contact.png"
+        </div>
+        <a href="#" class="list-item-menu collapsible">Social<span><img src="asset/contact.png"
 					class="img-menu"></span></a>
-		<div class="content">
-			<a href="mailto:tengku13elmiro@gmail.com" class="list-item-menu">Email<span><img src="asset/email.png"
+        <div class="content">
+            <a href="mailto:tengku13elmiro@gmail.com" class="list-item-menu">Email<span><img src="asset/email.png"
 						class="img-menu"></span></a>
-			<a href="https://www.facebook.com/tengku.belmiro/" target="_blank" class="list-item-menu">Facebook<span><img
+            <a href="https://www.facebook.com/tengku.belmiro/" target="_blank" class="list-item-menu">Facebook<span><img
 						src="asset/fbcircle.png" class="img-menu"></span></a>
-			<a href="https://www.instagram.com/its_meerro/" target="_blank" class="list-item-menu">Instagram<span><img
+            <a href="https://www.instagram.com/its_meerro/" target="_blank" class="list-item-menu">Instagram<span><img
 						src="asset/ig.png" class="img-menu"></span></a>
-			<a href="https://twitter.com/tengku_belmiro/" target="_blank" class="list-item-menu">Twitter<span><img
+            <a href="https://twitter.com/tengku_belmiro/" target="_blank" class="list-item-menu">Twitter<span><img
 						src="asset/twcircle.png" class="img-menu"></span></a>
-		</div>
-		<a href="https://saweria.co/castariva18" target="_blank" class="list-item-menu">Support<span><img
+        </div>
+        <a href="https://saweria.co/castariva18" target="_blank" class="list-item-menu">Support<span><img
 					src="asset/coffe.png" class="img-menu"></span></a>
-	</div>
+    </div>
 
-	<script src="js/jScript.js"></script>
+    <script src="js/jScript.js"></script>
 </body>
 
 </html>
